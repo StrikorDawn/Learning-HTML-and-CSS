@@ -5,6 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--One of many ways to do CSS-->
+    <style>
+      /* h1 {
+        color: blue;
+        background-color: aqua;
+        text-align: center;
+        margin-top: 300px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        padding: 10px;
+      } */
+      .awesomeHeading {
+        font-size: 50px;
+        color: brown;
+      }
+    </style>
+    <link rel="stylesheet" href="./wednesday.css" />
   </head>
-  <body></body>
+  <body>
+    <!--One of the ways to do CSS, but is the messiest and uggliest.-->
+    <h1
+      style="
+        color: blue;
+        background-color: aqua;
+        text-align: center;
+        margin-top: 300px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+      "
+    >
+      This is a large heading
+    </h1>
+    <!--If you want to do  specific CSS things on only specifice items us Classes, IDs are better used for Java Script-->
+    <h1 class="awesomeHeading">This is a large heading</h1>
+    <h1>This is a large heading</h1>
+    <h1>This is a large heading</h1>
+    <h1>This is a large heading</h1>
+    <h1>This is a large heading</h1>
+  </body>
 </html>
