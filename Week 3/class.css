@@ -9,3 +9,8 @@
   color: green;
   font-size: xx-large;
 }
+/*Ids are used for java script primarily and in CSS will override classes.*/
+#small_purple {
+  font-size: 200%;
+  color: purple;
+}
