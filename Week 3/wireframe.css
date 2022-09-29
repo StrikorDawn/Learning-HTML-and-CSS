@@ -1,0 +1,23 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.nav_bar {
+  background-color: darkblue;
+  height: 125px;
+  width: fill;
+}
+.nav_link {
+  border: ;
+  color: orangered;
+}
+.social_icon {
+  height: 75px;
+  width: 75px;
+}
+.footer {
+  background-color: ;
+}
