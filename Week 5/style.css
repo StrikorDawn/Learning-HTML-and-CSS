@@ -1,0 +1,24 @@
+.top {
+  background-color: red;
+  height: 75px;
+  width: 30%;
+  margin: 0 auto;
+}
+.mid {
+  background-color: blue;
+  height: 75px;
+  width: 50%;
+  margin: 0 auto;
+}
+.bottom {
+  background-color: green;
+  height: 75px;
+  width: 70%;
+  margin: 0 auto;
+}
+.purple {
+  background-color: purple;
+}
+.white {
+  background-color: white;
+}

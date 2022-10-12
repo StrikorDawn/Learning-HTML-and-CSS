@@ -1,0 +1,16 @@
+body {
+  background-color: grey;
+}
+.title {
+  display: block;
+}
+div {
+  margin: 0 auto;
+  width: 1300px;
+}
+.circle {
+  border-radius: 50%;
+  border: rgb(68, 68, 68) 10px solid;
+  width: 300px;
+  margin: 20px 40px;
+}
