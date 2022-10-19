@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  display: grid;
+  width: 1000px;
+  grid-template-columns: 500px;
+  grid-row: 500px;
+  background-color: grey;
+  padding: 10;
+}
+.white {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+img {
+  height: 500px;
+  z-index: 0;
+  grid-row: 1;
+  grid-column: 1;
+}
+h1 {
+  font-size: 150px;
+  z-index: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  padding-left: 50px;
+}
+h2 {
+  font-size: 75px;
+  color: darkred;
+  z-index: 1;
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 250px;
+  padding-left: 50px;
+}
