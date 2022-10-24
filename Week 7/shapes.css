@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  border: 5px solid teal;
+  height: 1000px;
+  width: 1000px;
+}
+img {
+  grid-column: 2/4;
+  grid-row: 2/4;
+  border-radius: 25%;
+  max-width: 100%;
+}
+.square {
+  grid-column: 2/9;
+  grid-row: 5/9;
+  background-color: aquamarine;
+}
+.circle {
+  grid-column: 9/13;
+  grid-row: 4/7;
+  background-color: purple;
+  border-radius: 50%;
+}
