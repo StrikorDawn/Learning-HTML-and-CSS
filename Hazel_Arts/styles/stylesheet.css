@@ -3,10 +3,11 @@ font-family: "Lobster", cursive;
 font-family: "PT Serif", serif;
 font-family: "Sora", sans-serif;
 /* Find a "noteworthy font" for Paragraph stuff on page, ask teacher for help on where to look. */
-PT Serif heding font
---ghost-white: #f2f1f7ff;
---wild-blue-yonder: #b2afc9ff;
---light-french-beige: #d3b883ff;
---powder-blue: #bbd9dbff;
---cadet-blue: #7fabaeff;
---air-superiority-blue: #6d91a9ff;
+PT Serif heding font :root {
+  --ghost-white: #f2f1f7ff;
+  --wild-blue-yonder: #b2afc9ff;
+  --light-french-beige: #d3b883ff;
+  --powder-blue: #bbd9dbff;
+  --cadet-blue: #7fabaeff;
+  --air-superiority-blue: #6d91a9ff;
+}
