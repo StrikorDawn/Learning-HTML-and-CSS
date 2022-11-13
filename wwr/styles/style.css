@@ -19,6 +19,10 @@ header {
   padding-top: 5px;
   align-self: center;
 }
+.logo:hover {
+  width: 100px;
+  transform: 0.5;
+}
 .icon {
   width: 80px;
   padding-top: 10px;
@@ -33,6 +37,7 @@ nav {
 }
 nav a {
   padding: 35px;
+  color: rgb(24, 122, 207);
 }
 nav a:hover {
   color: aliceblue;
@@ -96,6 +101,7 @@ body {
 }
 nav a:hover {
   background-color: rgba(17, 131, 64, 0.753);
+  color: aliceblue;
 }
 .book {
   background-color: rgb(151, 232, 252);
@@ -116,8 +122,8 @@ nav a:hover {
   border-radius: 5px;
 }
 .book:hover {
-  background-color: rgba(0, 255, 85, 0.281);
-  color: rgba(17, 131, 64, 0.753);
+  background-color: rgb(103, 172, 233);
+  color: rgb(193, 226, 255);
 }
 .join:hover {
   background-color: rgba(0, 255, 85, 0.281);
@@ -217,6 +223,9 @@ footer p {
   .home-grid {
     display: block;
     height: auto;
+  }
+  header {
+    grid-template-columns: auto;
   }
   nav,
   footer {
