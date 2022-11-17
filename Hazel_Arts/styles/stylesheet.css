@@ -11,3 +11,24 @@ PT Serif heding font :root {
   --cadet-blue: #7fabaeff;
   --air-superiority-blue: #6d91a9ff;
 }
+
+body {
+  background-color: #7fabaeff;
+}
+
+nav {
+  background-color: #d3b883ff;
+}
+
+main {
+}
+
+header {
+}
+
+section {
+}
+
+footer {
+  background-color: #d3b883ff;
+}
