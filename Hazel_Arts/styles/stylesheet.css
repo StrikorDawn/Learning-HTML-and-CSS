@@ -14,13 +14,23 @@ PT Serif heding font :root {
 
 body {
   background-color: #7fabaeff;
+  margin: 0;
 }
-
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 100px;
+}
 nav {
   background-color: #d3b883ff;
+  margin: 0 auto;
+  height: 100px;
 }
 
 main {
+  max-width: 1600px;
+  text-align: center;
 }
 
 header {
