@@ -89,3 +89,25 @@ main {
 footer {
   background-color: #d3b883ff;
 }
+
+@media screen and (max-width: 900px) {
+  #hero,
+  .home-grid {
+    display: block;
+    height: auto;
+  }
+  header {
+    grid-template-columns: auto;
+  }
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav a {
+    display: block;
+    padding: 15px;
+  }
+  footer {
+    margin-top: 25px;
+  }
+}
