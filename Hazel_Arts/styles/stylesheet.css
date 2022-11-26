@@ -26,17 +26,64 @@ nav {
   background-color: #d3b883ff;
   margin: 0 auto;
   height: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  padding: 35px;
 }
 
+nav a:hover {
+  background-color: #f2f1f7ff;
+  padding: 35px;
+}
+
+nav a p {
+  margin: 0 auto;
+}
 main {
   max-width: 1600px;
+  margin: 0 auto;
+}
+
+.bio {
+  background-color: #b2afc9ff;
+  height: 400px;
+  margin-bottom: 50px;
+}
+.bio h1 {
+  font-family: "Lobster", cursive;
   text-align: center;
+  padding-top: 25px;
 }
-
-header {
+.bio img {
+  width: 200px;
+  float: right;
+  padding-right: 50px;
 }
-
-section {
+.bio p {
+  text-align: justify;
+  padding: 30px;
+}
+.peekaboo {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  width: 400px;
+  height: 100px;
+  border: solid black 1px;
+}
+.gallary_box {
+  background-color: #b2afc9ff;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+.gallary img {
+  width: 450px;
+  margin: 0px;
+  display: inline;
 }
 
 footer {
