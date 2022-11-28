@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:ital,wght@1,700&family=Sora:wght@200&display=swap");
-font-family: "Lobster", cursive;
+font-family: "Lobster", cursive, "PT Serif", serif, "Sora", sans-serif;
 font-family: "PT Serif", serif;
 font-family: "Sora", sans-serif;
 /* Find a "noteworthy font" for Paragraph stuff on page, ask teacher for help on where to look. */
@@ -30,13 +30,19 @@ nav {
   text-decoration: none;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10px;
+  font-family: "Lobster", cursive, "PT Serif", serif, "Sora", sans-serif;
 }
 nav a {
   padding: 35px;
+  border-top: solid 5px rgb(192, 167, 118);
+  border-bottom: solid 5px rgb(192, 167, 118);
+  border-left: solid 2px rgb(192, 167, 118);
+  border-right: solid 2px rgb(192, 167, 118);
 }
 
 nav a:hover {
-  background-color: #f2f1f7ff;
+  background-color: #bbd9dbff;
   padding: 35px;
 }
 
@@ -52,8 +58,11 @@ footer {
   background-color: #d3b883ff;
   padding: 15px;
   margin-top: 20px;
+  border: solid 5px rgb(192, 167, 118);
 }
 .tm {
+  margin-left: 35px;
+  font-family: "Sora", sans-serif;
 }
 .social {
 }
@@ -62,8 +71,14 @@ footer {
   font-size: 45px;
   padding: 10px 30px;
 }
+
 .footer_links {
+  font-family: "Lobster", cursive, "PT Serif", serif, "Sora", sans-serif;
+  text-align: center;
   float: right;
+}
+.footer_links a {
+  margin: 15px;
 }
 
 @media screen and (max-width: 900px) {

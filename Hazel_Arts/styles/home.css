@@ -2,6 +2,7 @@
   background-color: #b2afc9ff;
   height: 400px;
   margin-bottom: 50px;
+  border: rgb(157, 153, 182) solid 5px;
 }
 .bio h1 {
   font-family: "Lobster", cursive;
@@ -33,6 +34,7 @@
   background-color: #b2afc9ff;
   margin: 0 auto;
   overflow-x: auto;
+  border: rgb(157, 153, 182) solid 5px;
 }
 .gallary_box h2 {
   padding-top: 50px;
@@ -43,6 +45,7 @@
 }
 .gallary {
   text-align: center;
+  padding: 20px;
 }
 .gallary img {
   width: 450px;
