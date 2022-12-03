@@ -1,0 +1,44 @@
+PT Serif heding font :root {
+  --ghost-white: #f2f1f7ff;
+  --wild-blue-yonder: #b2afc9ff;
+  --light-french-beige: #d3b883ff;
+  --powder-blue: #bbd9dbff;
+  --cadet-blue: #7fabaeff;
+  --air-superiority-blue: #6d91a9ff;
+}
+header {
+  background-color: #d3b883ff;
+  border: solid 5px rgb(192, 167, 118);
+  padding: 15px;
+  height: 175px;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+.chibi {
+  width: 25%;
+  align-content: center;
+  float: right;
+  margin-top: -130px;
+}
+.chibi img {
+  width: 150px;
+  z-index: -1;
+}
+
+.qbox {
+  background-color: #b2afc9ff;
+  border: rgb(157, 153, 182) solid 5px;
+  margin: 10px auto;
+  padding: 10px;
+}
+.qbox :nth-child(1) {
+  font-size: larger;
+  text-align: center;
+}
+.qbox :nth-child(2) {
+  color: #bbd9dbff;
+  text-align: center;
+}
