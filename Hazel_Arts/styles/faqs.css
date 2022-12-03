@@ -27,18 +27,28 @@ header {
   width: 150px;
   z-index: -1;
 }
+.background_img {
+  z-index: -5;
+  display: block;
+  width: 33%;
+  margin: 0 auto;
+  margin-bottom: -10px;
+}
 
 .qbox {
   background-color: #b2afc9ff;
   border: rgb(157, 153, 182) solid 5px;
   margin: 10px auto;
   padding: 10px;
+  z-index: 1;
 }
 .qbox :nth-child(1) {
   font-size: larger;
   text-align: center;
+  z-index: 0;
 }
 .qbox :nth-child(2) {
   color: #bbd9dbff;
   text-align: center;
+  z-index: 0;
 }
