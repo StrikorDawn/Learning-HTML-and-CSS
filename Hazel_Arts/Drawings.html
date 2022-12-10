@@ -12,6 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/drawings.css" />
     <title>Hazel Artz | Drawings</title>
   </head>
   <body>
@@ -32,22 +33,52 @@
       >
     </nav>
     <main>
-      <h3><b>What activities will be compleated?</b></h3>
-      <p>
-        Veiwing of Hazel's most recent work. requesting peices or things to be
-        created. Contacting Hazel for any specific questions or concerns.
-        Newsleters on deals and other promotions.
-      </p>
-      <p>Images for the Home page</p>
-      <p>Images for the Page 2</p>
-      <img
-        src="./Img/rsz_1pexels-steve-johnson-1509534.jpg"
-        alt="Waiting for actual Art from Hazel"
-      />
-      <img
-        src="./Img/rsz_4pexels-anni-roenkae-2860807.jpg"
-        alt="Waiting for actual Art from Hazel"
-      />
+      <div class="drawing">
+        <h1>Styles, Examples, Requests!</h1>
+        <p>
+          Hello! Welcome to the drawings page! Here is where I spotlight some of
+          my more recent works! This is also the page where you can submit your
+          requests for drawings you would like to commition me to do!
+        </p>
+        <p>
+          If you havn't already please give take a moment to look at our most
+          frequently asked questions page (FAQs) to help clarify any questions
+          you may have before you begin. It may also be helpful to take a look
+          at our terms of service page! I look forward to working with you!
+        </p>
+        <h3>~Koyuki</h3>
+      </div>
+
+      <div class="img_box">
+        <img
+          class="img1"
+          src="./Img/rsz_cute_owl.jpg"
+          alt="Waiting for actual Art from Hazel"
+        />
+        <img
+          class="img2"
+          src="./Img/rsz_caffe.jpg"
+          alt="Waiting for actual Art from Hazel"
+        />
+      </div>
+
+      <form action="">
+        <div>
+          <label class="name_label" for="name">First and Last Name:</label>
+          <input class="name_input" type="text" />
+          <label class="email_label" for="email">Email:</label>
+          <input class="email_input" type="text" />
+          <textarea
+            class="description"
+            name="Art Description"
+            id="description"
+            cols="30"
+            rows="10"
+            placeholder="Describe the peice you would like me to make, the more details the better! NO NSFW!!!"
+          ></textarea>
+          <input class="submit" type="submit" />
+        </div>
+      </form>
     </main>
     <footer>
       <div class="tm">

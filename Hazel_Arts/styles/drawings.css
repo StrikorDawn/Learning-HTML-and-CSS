@@ -6,3 +6,101 @@ PT Serif heding font :root {
   --cadet-blue: #7fabaeff;
   --air-superiority-blue: #6d91a9ff;
 }
+.drawing {
+  background-color: #b2afc9ff;
+  height: 400px;
+  margin-bottom: 50px;
+  border: rgb(157, 153, 182) solid 5px;
+}
+
+.drawing h1 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding-top: 25px;
+  font-size: xx-large;
+}
+.drawing p {
+  text-align: justify;
+  padding: 20px 50px;
+  font-family: "PT Serif", serif;
+  font-size: medium;
+}
+.drawing h3 {
+  float: right;
+  padding-right: 20%;
+  margin-bottom: 20px;
+}
+.img_box {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.img1,
+.img2 {
+  margin: 15px 30px;
+  height: 500px;
+}
+
+form {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #b2afc9ff;
+  padding: 10px;
+  border: rgb(157, 153, 182) solid 5px;
+}
+form div {
+  margin: 0 auto;
+  width: 75%;
+}
+.name_label {
+  display: block;
+}
+.name_input {
+  display: block;
+  width: 50%;
+  background-color: #bbd9dbff;
+  color: #f2f1f7ff;
+  border: #7fabaeff solid 3px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.email_label {
+  display: block;
+}
+.email_input {
+  display: block;
+  width: 50%;
+  background-color: #bbd9dbff;
+  color: #f2f1f7ff;
+  border: #7fabaeff solid 3px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.description {
+  display: block;
+  margin: 5px auto;
+  height: 200px;
+  width: 100%;
+  background-color: #bbd9dbff;
+  color: #f2f1f7ff;
+  border: #7fabaeff solid 3px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.submit {
+  display: block;
+  margin: 5px auto;
+  font-family: "Lobster", cursive, "PT Serif", serif, "Sora", sans-serif;
+  background-color: #bbd9dbff;
+  color: #f2f1f7ff;
+  border: #7fabaeff solid 3px;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+}
+
+.submit:hover {
+  background-color: rgb(170, 206, 209);
+}

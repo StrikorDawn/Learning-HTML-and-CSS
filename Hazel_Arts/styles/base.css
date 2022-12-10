@@ -92,8 +92,8 @@ footer {
   width: 66%;
 }
 .footer_links a {
-  width: 20%;
   padding: 15px;
+  width: 20%;
 }
 
 @media screen and (max-width: 1383px) {
