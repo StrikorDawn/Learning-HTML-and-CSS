@@ -1,0 +1,12 @@
+.uhoh {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #b2afc9ff;
+  padding: 50px 10px;
+  border: rgb(157, 153, 182) solid 5px;
+}
+h1 {
+  text-align: center;
+  margin: 30px;
+}
